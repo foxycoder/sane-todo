@@ -17,7 +17,6 @@ export default Ember.Component.extend({
     },
 
     completed: function(key, value) {
-      console.log('isCompleted triggered in component');
       var model = this.get('todo');
 
       if (value === undefined) {
